@@ -449,7 +449,10 @@ module.exports = function(grunt) {
                 // Cleanup
                 if (options.regular) {
                     ['16x16', '32x32', '48x48'].forEach(function(size) {
-                        fs.unlinkSync(path.join(f.dest, size + '.png'));
+                        const filePath = path.join(f.dest, size + '.png');
+                        if (fs.existsSync(filePath)) {
+                            fs.unlinkSync(filePath);
+                        }
                     });
                 }
 
