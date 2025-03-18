@@ -29,20 +29,20 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "cheerio": "~0.12.1",
-    "sync-exec": "^0.6.1"
+    "cheerio": "^1.0.1",
+    "sync-exec": "^0.6.2"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.1",
-    "grunt-contrib-copy": "~0.4.1",
-    "image-size": "~0.1.5",
-    "crypto": "0.0.3"
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-clean": "~2.0.1",
+    "grunt-contrib-nodeunit": "^5.0.0",
+    "grunt": "~1.6.1",
+    "grunt-contrib-copy": "~1.0.0",
+    "image-size": "^2.0.1",
+    "crypto": "^1.0.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~1.6.1"
   },
   "keywords": [
     "gruntplugin",
